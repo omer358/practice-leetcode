@@ -1,6 +1,6 @@
 import problems.easy.MakingTwoArraysEqualByReversingSubarrays
 
-fun main(args: Array<String>) {
+fun main() {
     println(
         MakingTwoArraysEqualByReversingSubarrays
             .canBeEqual(
