@@ -1,10 +1,5 @@
-import problems.easy.MakingTwoArraysEqualByReversingSubarrays
+import problems.easy.RomanToInteger
 
 fun main() {
-    println(
-        MakingTwoArraysEqualByReversingSubarrays
-            .canBeEqualUsingMap(
-                intArrayOf(1, 3, 2), intArrayOf(1, 2, 3)
-            )
-    )
+    println(RomanToInteger.romanToInt("III"))
 }
