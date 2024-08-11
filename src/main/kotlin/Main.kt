@@ -1,5 +1,5 @@
 import problems.easy.RomanToInteger
 
 fun main() {
-    println(RomanToInteger.romanToInt("III"))
+    println(RomanToInteger.romanToInt("CL"))
 }
