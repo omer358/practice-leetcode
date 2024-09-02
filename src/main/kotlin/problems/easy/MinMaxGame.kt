@@ -4,7 +4,7 @@ import kotlin.math.max
 import kotlin.math.min
 
 object MinMaxGame {
-    fun minMaxGame(arr: IntArray): Int {
+    fun solution(arr: IntArray): Int {
         var nums = arr
         while (nums.size > 1) {
             var newNums = IntArray(nums.size/2)

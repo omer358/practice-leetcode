@@ -1,7 +1,7 @@
 package problems.easy
 
 object RomanToInteger {
-    fun romanToInt(s: String): Int {
+    fun solution(s: String): Int {
         val romanMap = mapOf(
             "I" to 1,
             "V" to 5,

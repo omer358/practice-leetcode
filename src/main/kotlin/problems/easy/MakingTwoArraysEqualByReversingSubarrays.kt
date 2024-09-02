@@ -1,7 +1,7 @@
 package problems.easy
 
 object MakingTwoArraysEqualByReversingSubarrays {
-    fun canBeEqual(target: IntArray, arr: IntArray): Boolean {
+    fun solution(target: IntArray, arr: IntArray): Boolean {
         val target = target.sortedArray()
         val arr = arr.sortedArray()
         for (i in arr.indices) {
@@ -12,7 +12,7 @@ object MakingTwoArraysEqualByReversingSubarrays {
         return true
     }
 
-    fun canBeEqualUsingMap(target: IntArray, arr: IntArray): Boolean {
+    fun solutionUsingMap(target: IntArray, arr: IntArray): Boolean {
         val targetMap = mutableMapOf<Int, Int>()
         for (i in target) {
             if (targetMap.containsKey(i)) {

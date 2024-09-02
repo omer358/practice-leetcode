@@ -17,8 +17,7 @@ class TreeNode(var value: Int) {
 }
 
 object RootEqualsSumOfChildren {
-    fun checkTree(root: TreeNode?): Boolean {
-        // Ensure the root is not null and both children exist
+    fun solution(root: TreeNode?): Boolean {
         if ((root == null) || (root.left == null) || (root.right == null)) {
             return false
         }

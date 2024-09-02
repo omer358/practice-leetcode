@@ -7,5 +7,5 @@ fun main() {
         right = TreeNode(6)
     }
 
-    println(RootEqualsSumOfChildren.checkTree(root))
+    println(RootEqualsSumOfChildren.solution(root))
 }
