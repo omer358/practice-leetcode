@@ -19,11 +19,9 @@ class TreeNode(var value: Int) {
 object RootEqualsSumOfChildren {
     fun checkTree(root: TreeNode?): Boolean {
         // Ensure the root is not null and both children exist
-        if (root?.left == null || root.right == null) {
+        if ((root == null) || (root.left == null) || (root.right == null)) {
             return false
         }
-
-        // Check if the value of the root is equal to the sum of its children's values
         return root.value == (root.left?.value ?: 0) + (root.right?.value ?: 0)
     }
 }
