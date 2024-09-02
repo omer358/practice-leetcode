@@ -1,5 +1,11 @@
-import problems.easy.MinMaxGame
+import problems.easy.RootEqualsSumOfChildren
+import problems.easy.TreeNode
 
 fun main() {
-    println(MinMaxGame.minMaxGame(intArrayOf(1, 3, 5, 2, 4, 8, 2, 2)))
+    val root = TreeNode(10).apply {
+        left = TreeNode(4)
+        right = TreeNode(6)
+    }
+
+    println(RootEqualsSumOfChildren.checkTree(root))
 }
