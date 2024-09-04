@@ -1,4 +1,4 @@
-import problems.easy.RootEqualsSumOfChildren
+import problems.easy.MostFrequentEven
 import problems.easy.TreeNode
 
 fun main() {
@@ -7,5 +7,5 @@ fun main() {
         right = TreeNode(6)
     }
 
-    println(RootEqualsSumOfChildren.solution(root))
+    println(MostFrequentEven.solution(intArrayOf(0,1,2,2,4,4,1)))
 }
