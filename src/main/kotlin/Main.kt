@@ -1,5 +1,5 @@
-import problems.easy.MostFrequentEven
 import problems.easy.TreeNode
+import problems.easy.ValidParentheses
 
 fun main() {
     val root = TreeNode(10).apply {
@@ -7,5 +7,5 @@ fun main() {
         right = TreeNode(6)
     }
 
-    println(MostFrequentEven.solution(intArrayOf(0,1,2,2,4,4,1)))
+    println(ValidParentheses.solution("("))
 }
